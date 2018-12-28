@@ -38,7 +38,7 @@ Your output will likely look like the following, mostly failures with a few pass
 ```
 Profile: InSpec Azure Demo (inspec-azure-demo)
 Version: 0.1.0
-Target:  azure://09f2ee05-2cb0-4996-a24e-b4d3083b0cbd
+Target:  azure://[hidden]
 
   ×  azurerm_virtual_machine: '' Virtual Machine (5 failed)
      ×  '' Virtual Machine should exist
@@ -80,7 +80,7 @@ Target:  azure://09f2ee05-2cb0-4996-a24e-b4d3083b0cbd
 
 Profile: Azure Resource Pack (inspec-azure)
 Version: 1.2.0
-Target:  azure://09f2ee05-2cb0-4996-a24e-b4d3083b0cbd
+Target:  azure://[hidden]
 
      No tests executed.
 
