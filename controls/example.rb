@@ -23,9 +23,9 @@ control 'azure_network_security_group' do
   end
 end
 
-control 'azure_network_security_group' do
+control 'azure_virtual_network' do
   describe azurerm_virtual_network(resource_group: resource_group, name: 'my-network') do
     it               { should exist }
-    its('location')  { should eq 'Central US' }
+    its('location')  { should eq 'centralus' }
   end
 end
