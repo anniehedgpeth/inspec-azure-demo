@@ -1,0 +1,13 @@
+name: inspec-azure-demo
+title: InSpec Azure Demo
+maintainer: Annie Hedgpeth
+copyright: Annie Hedgpeth
+copyright_email: ahedgpeth@10thmagnitude.com
+license: Apache-2.0
+summary: An InSpec Azure Profile Demo
+version: 0.1.0
+depends:
+  - name: inspec-azure
+    url: https://github.com/inspec/inspec-azure/archive/master.tar.gz
+supports:
+  platform: azure
