@@ -23,7 +23,7 @@ In order to validate Azure resources, we can use the inspec-azure gem to run aut
 
 Were just going to run a quick profile to show what it looks like and how quickly it tests the resources in your subscription. These are expected to fail, but you can see what kinds of tests are being run.
 
-NOTE: This is not making any changes to your node.
+NOTE: This is not making any changes to your subscription.
 
 1. From the command line of your choice, run this command from any directory.
 
