@@ -31,9 +31,9 @@ NOTE: This is not making any changes to your subscription.
 inspec exec https://github.com/anniehedgpeth/inspec-azure-demo.git -t azure://[your-azure-subscription-id-here]
 ```
 
-When you run this command, InSpec is querying your local machine to see if it's in the desired state that is specified in the InSpec profile. It will not be, and therefore you will see many many errors, which is what you want.
+When you run this command, InSpec is querying your subscription to see if it's in the desired state that is specified in the InSpec profile. It will not be, and therefore you will see many many errors, which is what you want.
 
-Your output will likely look like the following, mostly failures with a few passing tests. This is truncated:
+Your output will likely look like the following, mostly failures with a few passing tests:
 
 ```
 Profile: InSpec Azure Demo (inspec-azure-demo)
