@@ -6,7 +6,7 @@ title 'Sample InSpec Azure Controls'
 resource_group = 'my-resources'
 
 control 'azurerm_virtual_machine' do
-  describe azurerm_virtual_machine(resource_group: resource_group, name: 'my-vm') do
+  describe azurerm_virtual_machine(resource_group: resource_group, name: 'demo-resources') do
     it                                { should exist }
     its('type')                       { should eq 'Microsoft.Compute/virtualMachines' }
   end
