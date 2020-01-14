@@ -14,8 +14,7 @@ control 'resources' do
     its('type')                   { should eq 'Microsoft.Network/networkSecurityGroups' }
     its('security_rules')         { should_not be_empty }
     its('default_security_rules') { should_not be_empty }
-    it                            { should_not allow_rdp_from_internet }
-    it                            { should_not allow_ssh_from_internet }
+    it                            { should allow_ssh_from_internet }
   end
 
   describe azurerm_virtual_network(resource_group: resource_group, name: 'my_network') do
